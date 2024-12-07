@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-data = pd.read_csv("vehicle_insurance_claims.csv", parse_dates=["Policy_Start_Date", "Policy_End_Date", "Claim_Date", "Payment_Date"])
+data = pd.read_csv("data/vehicle_insurance_claims.csv", parse_dates=["Policy_Start_Date", "Policy_End_Date", "Claim_Date", "Payment_Date"])
 
 # Title for the dashboard layout sections
 st.write("Designed by Benedict Marchand")
